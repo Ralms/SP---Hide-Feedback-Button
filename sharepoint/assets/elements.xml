@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="HideFeedbackButton"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="e09f735f-e3b4-4b65-8ace-ed78b5ca11fc"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "hide-feedback-button",
+    "libraryId": "1e56d6b2-78d0-4b03-9093-fc28b6d50bf0",
+    "environment": "spo"
+  }
+}

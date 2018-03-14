@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-feedback-button-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideFeedbackButton/HideFeedbackButtonApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideFeedbackButton/HideFeedbackButtonApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideFeedbackButtonApplicationCustomizerStrings": "lib/extensions/hideFeedbackButton/loc/{locale}.js"
+  }
+}
