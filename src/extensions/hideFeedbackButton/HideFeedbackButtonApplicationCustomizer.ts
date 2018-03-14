@@ -6,6 +6,7 @@ import {
 import { Dialog } from '@microsoft/sp-dialog';
 
 import * as strings from 'HideFeedbackButtonApplicationCustomizerStrings';
+import "./styles.scss"
 
 const LOG_SOURCE: string = 'HideFeedbackButtonApplicationCustomizer';
 
@@ -26,13 +27,6 @@ export default class HideFeedbackButtonApplicationCustomizer
   @override
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
-
-    let message: string = this.properties.testMessage;
-    if (!message) {
-      message = '(No properties were provided.)';
-    }
-
-    Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`);
 
     return Promise.resolve();
   }

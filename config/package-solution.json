@@ -1,16 +1,16 @@
 {
   "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "hide-feedback-button-client-side-solution",
+    "name": "hide-feedback-button-extension",
     "id": "1e56d6b2-78d0-4b03-9093-fc28b6d50bf0",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "features": [
       {
-        "title": "Application Extension - Deployment of custom action.",
-        "description": "Deploys a custom action with ClientSideComponentId association",
+        "title": "Hide FeedBack Button",
+        "description": "Hides the Microsoft Feedback Button on Microsoft pages",
         "id": "dbbebdd9-aa29-4692-b995-58e0ce317d65",
-        "version": "1.0.0.0",
+        "version": "1.0.0.1",
         "assets": {
           "elementManifests": [
             "elements.xml"
